@@ -98,17 +98,22 @@ ul li {
 
 /* Links with Different Images */
 /* Links with Different Images */
+/* Links with Background Images and Visible Text */
 .w3schools-link, .mdn-link {
-    background-image: url('3N1GMA.2.jpg'); 
-    background-size: cover;
-    background-position: center;
-    color: transparent; /* Makes the text color itself transparent */
-    -webkit-background-clip: text; /* Clips the background to the text */
-    background-clip: text; /* Clips the background to the text */
-    text-align: center; /* Centers the text horizontally */
-    margin-bottom: 20px;
-    font-size: 2rem; /* Sets the text size */
+    display: inline-block;
+    width: auto; /* Allow the width to adjust based on text content */
+    height: 40px;
+    background: url('3N1GMA.2.jpg') no-repeat left center; /* Position the image on the left */
+    background-size: 40px 40px; /* Ensure the image fits within the height */
+    padding-left: 50px; /* Add space for the image to the left of the text */
+    color: #333; /* Set the text color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold */
+    line-height: 40px; /* Vertically center the text */
+    text-align: left; /* Align text to the left */
+    box-sizing: border-box; /* Ensure padding doesn't affect the width */
 }
+
 
 
 
