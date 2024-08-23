@@ -102,14 +102,16 @@ ul li {
     display: inline-block;
     width: 120px; 
     height: 40px;
-    background: url('3N1GMA.2.jpg') no-repeat center center; /* Ensure the image path is correct */
+    background: url('3N1GMA.2.jpg') no-repeat center center; /* Background image */
     background-size: contain;
     text-decoration: none; /* Removes underline */
-    color: #333; /* Change this to whatever color you want the text to be */
-    line-height: 40px; /* Vertically centers the text within the link */
-    text-align: center; /* Centers the text horizontally */
+    color: #ffffff; /* Text color - you can adjust this */
+    font-weight: bold; /* Make text bold if needed */
+    line-height: 40px; /* Vertically center the text within the link */
+    text-align: center; /* Horizontally center the text */
+    padding: 0 10px; /* Add some horizontal padding if needed */
+    box-sizing: border-box; /* Ensure padding does not affect the width */
 }
-
 
 
 /* Media Queries for Responsiveness */
