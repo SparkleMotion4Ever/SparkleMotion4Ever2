@@ -118,3 +118,21 @@ a:hover {
         margin: 0 auto 20px auto;
     }
 }
+
+.w3schools-link {
+    display: inline-block;
+    width: 120px; /* Adjust the width to match the image */
+    height: 40px; /* Adjust the height to match the image */
+    background: url('path-to-w3schools-image.jpg') no-repeat center center;
+    background-size: contain;
+    text-indent: -9999px; /* Hides the text visually */
+}
+
+.mdn-link {
+    display: inline-block;
+    width: 120px; /* Adjust the width to match the image */
+    height: 40px; /* Adjust the height to match the image */
+    background: url('path-to-mdn-image.jpg') no-repeat center center;
+    background-size: contain;
+    text-indent: -9999px; /* Hides the text visually */
+}
