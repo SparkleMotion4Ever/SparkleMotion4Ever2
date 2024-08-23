@@ -77,12 +77,19 @@ section {
     background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
-    color: transparent; /* This must be set to ensure the text itself doesn't show color */
+    color: transparent; /* Ensures the text itself doesn't show color */
     text-align: center;
     margin-bottom: 20px;
     font-size: 2rem;
-    display: inline-block; /* Ensure the background clipping works as expected */
+    display: block; /* Allows the h2 to take full width */
+    width: 100%; /* Ensures it spans the full width of its container */
+    margin: 0 auto; /* Centers the block element within its parent */
 }
+
+#technologies, #resources {
+    text-align: center; /* Ensures the parent container centers its children */
+}
+
 
 ul {
     list-style-type: disc;
