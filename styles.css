@@ -78,18 +78,15 @@ section {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent; /* Ensures the text itself doesn't show color */
-    text-align: center;
-    margin-bottom: 20px;
     font-size: 2rem;
-    display: block; /* Allows the h2 to take full width */
-    width: 100%; /* Ensures it spans the full width of its container */
-    margin: 0 auto; /* Centers the block element within its parent */
+    margin-bottom: 20px;
+    display: inline-block; /* Allows for centering */
+    text-align: center;
 }
 
 #technologies, #resources {
-    text-align: center; /* Ensures the parent container centers its children */
+    text-align: center; /* Centers the inline-block h1 and h2 */
 }
-
 
 ul {
     list-style-type: disc;
