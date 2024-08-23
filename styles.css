@@ -73,20 +73,16 @@ section {
 }
 
 #technologies h2, #resources h2 {
-    background: url('3N1GMA.1.jpg') no-repeat center center;
-    background-size: cover;
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent; /* Ensures the text itself doesn't show color */
-    font-size: 2rem;
+    background: url('3N1GMA.1.jpg') no-repeat center center !important;
+    background-size: cover !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    color: transparent !important;
+    font-size: 2rem !important;
     margin-bottom: 20px;
-    display: inline-block; /* Allows the element to be centered by the parent */
-    text-align: center;
-    vertical-align: middle; /* Ensures the text is vertically centered */
-}
-
-#technologies, #resources {
-    text-align: center; /* Centers the h2 header in each section */
+    display: inline-block !important;
+    text-align: center !important;
+    vertical-align: middle !important;
 }
 
 ul {
