@@ -1,3 +1,4 @@
+/* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -7,9 +8,9 @@ body {
     color: #333;
 }
 
-
+/* Header */
 header {
-    background-image: url('3N1GMA.1.jpg'); 
+    background-image: url('3N1GMA.jpg'); 
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -23,6 +24,7 @@ header h1 {
     margin: 0;
 }
 
+/* About Me Section */
 #about-me {
     display: flex;
     align-items: flex-start;
@@ -48,6 +50,7 @@ header h1 {
     color: #555;
 }
 
+/* Class Reason Section */
 #class-reason {
     padding: 20px;
     background-color: #ffffff;
@@ -59,6 +62,7 @@ header h1 {
     font-size: 1.1rem;
 }
 
+/* Technologies and Resources Section */
 section {
     margin: 20px auto;
     padding: 20px;
@@ -80,6 +84,7 @@ section {
     font-size: 2rem; 
 }
 
+/* Lists */
 ul {
     list-style-type: disc;
     margin-left: 40px;
@@ -91,25 +96,26 @@ ul li {
     font-size: 1.1rem;
 }
 
-
+/* Links with Different Images */
 .w3schools-link {
     display: inline-block;
     width: 120px; 
     height: 40px;
-    background: url('3N1GMA.2.jpg') no-repeat center center; 
+    background: url('3N1GMA.2.jpg') no-repeat center center; /* Use a different image for W3Schools link */
     background-size: contain;
-    text-indent: -9999px; 
+    text-indent: -9999px; /* Hides the text visually */
+}
 
 .mdn-link {
     display: inline-block;
     width: 120px; 
     height: 40px; 
-    background: url('3N1GMA.2.jpg') no-repeat center center;
+    background: url('3N1GMA.2.jpg') no-repeat center center; /* Use a different image for MDN Web Docs link */
     background-size: contain;
-    text-indent: -9999px; 
+    text-indent: -9999px; /* Hides the text visually */
 }
 
-
+/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     #about-me {
         flex-direction: column;
