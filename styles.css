@@ -101,12 +101,12 @@ ul li {
     display: inline-block;
     width: 120px; 
     height: 40px;
-    background: url('3N1GMA.2.jpg') no-repeat center center; /* Use a different image for W3Schools link */
+    background: url('3N1GMA.2.jpg') no-repeat center center; /* Ensure the image path is correct */
     background-size: contain;
-    text-indent: -9999px; /* Hides the text visually */
-    border: none; /* Remove any default border */
-    text-decoration: none; /* Remove underline */
-    color: transparent; /* Make the text color transparent */
+    text-indent: -9999px; /* Visually hides the text */
+    border: none; /* Removes any default border */
+    text-decoration: none; /* Removes underline */
+    color: transparent; /* Hides the text color */
 }
 
 
