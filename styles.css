@@ -97,17 +97,19 @@ ul li {
 }
 
 /* Links with Different Images */
+/* Links with Different Images */
 .w3schools-link, .mdn-link {
     display: inline-block;
     width: 120px; 
     height: 40px;
     background: url('3N1GMA.2.jpg') no-repeat center center; /* Ensure the image path is correct */
     background-size: contain;
-    text-indent: -9999px; /* Visually hides the text */
-    border: none; /* Removes any default border */
     text-decoration: none; /* Removes underline */
-    color: transparent; /* Hides the text color */
+    color: #333; /* Change this to whatever color you want the text to be */
+    line-height: 40px; /* Vertically centers the text within the link */
+    text-align: center; /* Centers the text horizontally */
 }
+
 
 
 /* Media Queries for Responsiveness */
