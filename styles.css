@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; /* Consistent font for the entire document */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -96,8 +96,6 @@ ul li {
     font-size: 1.1rem;
 }
 
-/* Links with Different Images */
-/* Links with Different Images */
 /* Links with Background Images and Visible Text */
 .w3schools-link, .mdn-link {
     display: inline-block;
@@ -113,9 +111,6 @@ ul li {
     line-height: 1.2; /* Adjust line height for spacing */
     margin-bottom: 20px; /* Add spacing below the link */
 }
-
-
-
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
