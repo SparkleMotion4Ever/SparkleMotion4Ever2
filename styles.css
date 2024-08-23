@@ -97,23 +97,18 @@ ul li {
 }
 
 /* Links with Different Images */
-.w3schools-link {
+.w3schools-link, .mdn-link {
     display: inline-block;
     width: 120px; 
     height: 40px;
     background: url('3N1GMA.2.jpg') no-repeat center center; /* Use a different image for W3Schools link */
     background-size: contain;
     text-indent: -9999px; /* Hides the text visually */
+    border: none; /* Remove any default border */
+    text-decoration: none; /* Remove underline */
+    color: transparent; /* Make the text color transparent */
 }
 
-.mdn-link {
-    display: inline-block;
-    width: 120px; 
-    height: 40px; 
-    background: url('3N1GMA.2.jpg') no-repeat center center; /* Use a different image for MDN Web Docs link */
-    background-size: contain;
-    text-indent: -9999px; /* Hides the text visually */
-}
 
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
