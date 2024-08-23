@@ -73,10 +73,15 @@ section {
 }
 
 #technologies h2, #resources h2 {
+    background-image: url('your-image.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
     text-align: center;
-    color: #1a73e8;
     margin-bottom: 20px;
-    font-size: 2rem;
+    font-size: 2rem; /* You can adjust this size as needed */
 }
 
 ul {
