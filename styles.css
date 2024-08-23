@@ -102,13 +102,14 @@ ul li {
     background-image: url('3N1GMA.2.jpg'); 
     background-size: cover;
     background-position: center;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    text-align: center;
+    color: transparent; /* Makes the text color itself transparent */
+    -webkit-background-clip: text; /* Clips the background to the text */
+    background-clip: text; /* Clips the background to the text */
+    text-align: center; /* Centers the text horizontally */
     margin-bottom: 20px;
-    font-size: 2rem; 
+    font-size: 2rem; /* Sets the text size */
 }
+
 
 
 /* Media Queries for Responsiveness */
