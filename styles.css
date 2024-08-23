@@ -99,18 +99,15 @@ ul li {
 /* Links with Different Images */
 /* Links with Different Images */
 .w3schools-link, .mdn-link {
-    display: inline-block;
-    width: auto; /* Adjust to fit the text and image */
-    height: 40px;
-    background: url('3N1GMA.2.jpg') no-repeat center left; /* Image on the left, text on the right */
-    background-size: 40px 40px; /* Size the image */
-    padding-left: 50px; /* Space for the image to be shown before the text */
-    text-decoration: none; /* Removes underline */
-    color: #333; /* Visible text color */
-    font-weight: bold; /* Optional: Make text bold */
-    line-height: 40px; /* Vertically center the text */
-    text-align: left; /* Align text to the left */
-    box-sizing: border-box; /* Ensure padding does not affect the width */
+    background-image: url('3N1GMA.2.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem; 
 }
 
 
