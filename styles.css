@@ -101,17 +101,18 @@ ul li {
 /* Links with Background Images and Visible Text */
 .w3schools-link, .mdn-link {
     display: inline-block;
-    background-image: url('3N1GMA.2.jpg'); /* The image to fill the text */
+    background-image: url('3N1GMA.2.jpg'); /* The same image used for "Technologies for this class" */
     background-size: cover; /* Ensure the image covers the text area */
     background-position: center; /* Center the image within the text */
     color: transparent; /* Make the text color transparent */
     -webkit-background-clip: text; /* Clip the background to the text (for webkit browsers) */
     background-clip: text; /* Clip the background to the text */
-    font-size: 2rem; /* Adjust font size as needed */
-    font-weight: bold; /* Make the text bold if desired */
     text-decoration: none; /* Remove underline */
+    font-size: 2rem; /* Match the font size to "Technologies for this class" */
+    font-weight: bold; /* Make the text bold */
+    line-height: 1.2; /* Adjust line height for spacing */
+    margin-bottom: 20px; /* Add spacing below the link */
 }
-
 
 
 
