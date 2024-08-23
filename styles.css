@@ -101,18 +101,19 @@ ul li {
 /* Links with Background Images and Visible Text */
 .w3schools-link, .mdn-link {
     display: inline-block;
-    width: auto; /* Allow the width to adjust based on text content */
+    width: auto;
     height: 40px;
-    background: url('3N1GMA.2.jpg') no-repeat left center; /* Position the image on the left */
-    background-size: 40px 40px; /* Ensure the image fits within the height */
-    padding-left: 50px; /* Add space for the image to the left of the text */
-    color: #333; /* Set the text color */
-    text-decoration: none; /* Remove underline */
-    font-weight: bold; /* Make the text bold */
-    line-height: 40px; /* Vertically center the text */
-    text-align: left; /* Align text to the left */
-    box-sizing: border-box; /* Ensure padding doesn't affect the width */
+    background: url('3N1GMA.2.jpg') no-repeat left center, #fff; /* Add a white background color */
+    background-size: 40px 40px;
+    padding-left: 50px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 40px;
+    text-align: left;
+    box-sizing: border-box;
 }
+
 
 
 
