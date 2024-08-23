@@ -10,7 +10,7 @@ body {
 
 /* Header */
 header {
-    background-image: url('3N1GMA.jpg'); /* Replace 'your-image.jpg' with the actual path to your image */
+    background-image: url('3N1GMA.jpg'); /* Replace '3N1GMA.jpg' with the actual path to your image */
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -73,7 +73,7 @@ section {
 }
 
 #technologies h2, #resources h2 {
-    background-image: url('3N1GMA.1.jpg'); /* Replace with the path to your image */
+    background-image: url('3N1GMA.1.jpg'); /* Ensure this is the correct image for headings */
     background-size: cover;
     background-position: center;
     color: transparent;
@@ -84,6 +84,7 @@ section {
     font-size: 2rem; /* You can adjust this size as needed */
 }
 
+/* Lists */
 ul {
     list-style-type: disc;
     margin-left: 40px;
@@ -95,16 +96,23 @@ ul li {
     font-size: 1.1rem;
 }
 
-/* Links */
-a {
-    color: #1a73e8;
-    text-decoration: none;
-    font-weight: bold;
+/* Links with Images */
+.w3schools-link {
+    display: inline-block;
+    width: 120px; /* Adjust the width to match the image */
+    height: 40px; /* Adjust the height to match the image */
+    background: url('3N1GMA.2.jpg') no-repeat center center; /* Ensure this is the correct image for the W3Schools link */
+    background-size: contain;
+    text-indent: -9999px; /* Hides the text visually */
 }
 
-a:hover {
-    text-decoration: underline;
-    color: #0c47a1;
+.mdn-link {
+    display: inline-block;
+    width: 120px; /* Adjust the width to match the image */
+    height: 40px; /* Adjust the height to match the image */
+    background: url('3N1GMA.2.jpg') no-repeat center center; /* Ensure this is the correct image for the MDN Web Docs link */
+    background-size: contain;
+    text-indent: -9999px; /* Hides the text visually */
 }
 
 /* Media Queries for Responsiveness */
@@ -117,22 +125,4 @@ a:hover {
     .profile-pic {
         margin: 0 auto 20px auto;
     }
-}
-
-.w3schools-link {
-    display: inline-block;
-    width: 120px; /* Adjust the width to match the image */
-    height: 40px; /* Adjust the height to match the image */
-    background: url('3N1GMA.2.jpg') no-repeat center center;
-    background-size: contain;
-    text-indent: -9999px; /* Hides the text visually */
-}
-
-.mdn-link {
-    display: inline-block;
-    width: 120px; /* Adjust the width to match the image */
-    height: 40px; /* Adjust the height to match the image */
-    background: url('3N1GMA.2.jpg') no-repeat center center;
-    background-size: contain;
-    text-indent: -9999px; /* Hides the text visually */
 }
