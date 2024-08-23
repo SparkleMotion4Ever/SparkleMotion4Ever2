@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -8,9 +7,9 @@ body {
     color: #333;
 }
 
-/* Header */
+
 header {
-    background-image: url('3N1GMA.1.jpg'); /* Replace '3N1GMA.jpg' with the actual path to your image */
+    background-image: url('3N1GMA.1.jpg'); 
     background-size: cover;
     background-position: center;
     color: #ffffff;
@@ -24,7 +23,6 @@ header h1 {
     margin: 0;
 }
 
-/* About Me Section */
 #about-me {
     display: flex;
     align-items: flex-start;
@@ -50,7 +48,6 @@ header h1 {
     color: #555;
 }
 
-/* Class Reason Section */
 #class-reason {
     padding: 20px;
     background-color: #ffffff;
@@ -62,7 +59,6 @@ header h1 {
     font-size: 1.1rem;
 }
 
-/* Technologies and Resources Section */
 section {
     margin: 20px auto;
     padding: 20px;
@@ -73,7 +69,7 @@ section {
 }
 
 #technologies h2, #resources h2 {
-    background-image: url('3N1GMA.1.jpg'); /* Ensure this is the correct image for headings */
+    background-image: url('3N1GMA.1.jpg'); 
     background-size: cover;
     background-position: center;
     color: transparent;
@@ -81,10 +77,9 @@ section {
     background-clip: text;
     text-align: center;
     margin-bottom: 20px;
-    font-size: 2rem; /* You can adjust this size as needed */
+    font-size: 2rem; 
 }
 
-/* Lists */
 ul {
     list-style-type: disc;
     margin-left: 40px;
@@ -96,26 +91,25 @@ ul li {
     font-size: 1.1rem;
 }
 
-/* Links with Images */
+
 .w3schools-link {
     display: inline-block;
-    width: 120px; /* Adjust the width to match the image */
-    height: 40px; /* Adjust the height to match the image */
-    background: url('3N1GMA.2.jpg') no-repeat center center; /* Ensure this is the correct image for the W3Schools link */
+    width: 120px; 
+    height: 40px;
+    background: url('3N1GMA.2.jpg') no-repeat center center; 
     background-size: contain;
-    text-indent: -9999px; /* Hides the text visually */
-}
+    text-indent: -9999px; 
 
 .mdn-link {
     display: inline-block;
-    width: 120px; /* Adjust the width to match the image */
-    height: 40px; /* Adjust the height to match the image */
-    background: url('3N1GMA.2.jpg') no-repeat center center; /* Ensure this is the correct image for the MDN Web Docs link */
+    width: 120px; 
+    height: 40px; 
+    background: url('3N1GMA.2.jpg') no-repeat center center;
     background-size: contain;
-    text-indent: -9999px; /* Hides the text visually */
+    text-indent: -9999px; 
 }
 
-/* Media Queries for Responsiveness */
+
 @media (max-width: 768px) {
     #about-me {
         flex-direction: column;
