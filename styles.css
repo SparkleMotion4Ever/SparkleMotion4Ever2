@@ -73,16 +73,15 @@ section {
 }
 
 #technologies h2, #resources h2 {
-    background: url('3N1GMA.1.jpg') no-repeat center center !important;
-    background-size: cover !important;
-    -webkit-background-clip: text !important;
-    background-clip: text !important;
-    color: transparent !important;
-    font-size: 2rem !important;
+    background-image: url('3N1GMA.jpg'); /* Replace with the path to your image */
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
     margin-bottom: 20px;
-    display: inline-block !important;
-    text-align: center !important;
-    vertical-align: middle !important;
+    font-size: 2rem; /* You can adjust this size as needed */
 }
 
 ul {
