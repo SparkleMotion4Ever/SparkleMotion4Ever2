@@ -1,6 +1,6 @@
-/* General Styles */
+
 body {
-    font-family: 'Roboto', sans-serif; /* Consistent font for the entire document */
+    font-family: 'Roboto', sans-serif; 
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -8,7 +8,6 @@ body {
     color: #333;
 }
 
-/* Header */
 header {
     background-image: url('3N1GMA.jpg'); 
     background-size: cover;
@@ -24,7 +23,6 @@ header h1 {
     margin: 0;
 }
 
-/* About Me Section */
 #about-me {
     display: flex;
     align-items: flex-start;
@@ -50,7 +48,7 @@ header h1 {
     color: #555;
 }
 
-/* Class Reason Section */
+
 #class-reason {
     padding: 20px;
     background-color: #ffffff;
@@ -62,7 +60,7 @@ header h1 {
     font-size: 1.1rem;
 }
 
-/* Technologies and Resources Section */
+
 section {
     margin: 20px auto;
     padding: 20px;
@@ -84,7 +82,7 @@ section {
     font-size: 2rem; 
 }
 
-/* Lists */
+
 ul {
     list-style-type: disc;
     margin-left: 40px;
@@ -96,23 +94,23 @@ ul li {
     font-size: 1.1rem;
 }
 
-/* Links with Background Images and Visible Text */
+
 .w3schools-link, .mdn-link {
     display: inline-block;
-    background-image: url('3N1GMA.2.jpg'); /* The same image used for "Technologies for this class" */
-    background-size: cover; /* Ensure the image covers the text area */
-    background-position: center; /* Center the image within the text */
-    color: transparent; /* Make the text color transparent */
-    -webkit-background-clip: text; /* Clip the background to the text (for webkit browsers) */
-    background-clip: text; /* Clip the background to the text */
-    text-decoration: none; /* Remove underline */
-    font-size: 2rem; /* Match the font size to "Technologies for this class" */
-    font-weight: bold; /* Make the text bold */
-    line-height: 1.2; /* Adjust line height for spacing */
-    margin-bottom: 20px; /* Add spacing below the link */
+    background-image: url('3N1GMA.2.jpg'); 
+    background-size: cover;
+    background-position: center; 
+    color: transparent; 
+    -webkit-background-clip: text;
+    background-clip: text; 
+    text-decoration: none; 
+    font-size: 2rem; 
+    font-weight: bold; 
+    line-height: 1.2; 
+    margin-bottom: 20px; 
 }
 
-/* Media Queries for Responsiveness */
+
 @media (max-width: 768px) {
     #about-me {
         flex-direction: column;
@@ -122,32 +120,4 @@ ul li {
     .profile-pic {
         margin: 0 auto 20px auto;
     }
-}
-ul li {
-    margin-bottom: 10px;
-    font-size: 1.1rem;
-    line-height: 1.6; /* Adjusting line-height for better spacing */
-}
-
-ul li a {
-    display: inline; /* Keep link and following text in the same line */
-}
-
-ul li::before {
-    content: none; /* Remove any automatic bullet */
-}
-
-ul li a + span {
-    display: inline; /* Ensures the text after the link remains inline */
-    margin-left: 5px; /* Small space between the link and the text */
-}
-
-ul li {
-    display: flex;
-    align-items: baseline; /* Aligns the text closely with the link */
-}
-
-ul li span {
-    display: inline-block;
-    margin-left: 5px;
 }
