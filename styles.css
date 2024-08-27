@@ -126,17 +126,28 @@ ul li {
 ul li {
     margin-bottom: 10px;
     font-size: 1.1rem;
-    line-height:  1.0; /* Adjust the line-height to reduce spacing between lines */
+    line-height: 1.6; /* Adjusting line-height for better spacing */
 }
 
 ul li a {
-    display: inline-block; /* Ensures that the anchor tag does not add extra spacing */
+    display: inline; /* Keep link and following text in the same line */
+}
+
+ul li::before {
+    content: none; /* Remove any automatic bullet */
 }
 
 ul li a + span {
-    margin-left: 5px; /* Add a small space between the link and the rest of the text */
+    display: inline; /* Ensures the text after the link remains inline */
+    margin-left: 5px; /* Small space between the link and the text */
+}
+
+ul li {
+    display: flex;
+    align-items: baseline; /* Aligns the text closely with the link */
 }
 
 ul li span {
-    display: inline-block; /* Keeps the text inline with the link */
+    display: inline-block;
+    margin-left: 5px;
 }
