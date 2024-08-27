@@ -126,7 +126,7 @@ ul li {
 ul li {
     margin-bottom: 10px;
     font-size: 1.1rem;
-    line-height: 1.4; /* Adjust the line-height to reduce spacing between lines */
+    line-height: 1.2; /* Adjust the line-height to reduce spacing between lines */
 }
 
 ul li a {
