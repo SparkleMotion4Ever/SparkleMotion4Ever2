@@ -123,3 +123,20 @@ ul li {
         margin: 0 auto 20px auto;
     }
 }
+ul li {
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    line-height: 1.4; /* Adjust the line-height to reduce spacing between lines */
+}
+
+ul li a {
+    display: inline; /* Ensures that the anchor tag does not add extra spacing */
+}
+
+ul li a + span {
+    margin-left: 5px; /* Add a small space between the link and the rest of the text */
+}
+
+ul li span {
+    display: inline-block; /* Keeps the text inline with the link */
+}
