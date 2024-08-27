@@ -126,11 +126,11 @@ ul li {
 ul li {
     margin-bottom: 10px;
     font-size: 1.1rem;
-    line-height: 0.2; /* Adjust the line-height to reduce spacing between lines */
+    line-height:  1.0; /* Adjust the line-height to reduce spacing between lines */
 }
 
 ul li a {
-    display: inline; /* Ensures that the anchor tag does not add extra spacing */
+    display: inline-block; /* Ensures that the anchor tag does not add extra spacing */
 }
 
 ul li a + span {
