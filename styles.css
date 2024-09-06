@@ -38,6 +38,7 @@ header h1 {
 .profile-pic {
     float: left;  
     margin-right: 15px; 
+    margin-bottom: 10px;
     border-radius: 50%; 
     width: 150px;
     height: auto;
