@@ -120,3 +120,18 @@ ul li {
         margin: 0 auto 20px auto;
     }
 }
+#animate-btn {
+    display: block;  
+    margin: 10px 0 0 0;  
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#animate-btn:hover {
+    background-color: #0c47a1;  
+}
