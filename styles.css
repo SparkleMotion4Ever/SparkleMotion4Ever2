@@ -123,6 +123,7 @@ ul li {
 }
 #animate-btn {
     display: block;  
+    position: relative;
     margin: 10px 0 0 0;  
     padding: 10px 20px;
     background-color: #1a73e8;
