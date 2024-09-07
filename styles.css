@@ -122,10 +122,9 @@ ul li {
     }
 }
 #animate-btn {
-    display: block;  
-    position: relative;
-    top: 50px;
-    margin: 10px 0 0 0;  
+    display: inline-block;  
+    position: relative;     /* Allows you to move the button from its normal position */
+    top: 50px;              /* Move the button down 50px */
     padding: 10px 20px;
     background-color: #1a73e8;
     color: #ffffff;
@@ -133,9 +132,8 @@ ul li {
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
-    float: left;
-    clear: both;
 }
+
 
 #animate-btn:hover {
     background-color: #0c47a1;  
