@@ -124,7 +124,7 @@ ul li {
 #animate-btn {
     display: inline-block;  
     position: relative;     /* Allows you to move the button from its normal position */
-    top: 100px;              /* Move the button down 50px */
+    top: 150px;             /* Adjust this value to move the button further down */
     padding: 10px 20px;
     background-color: #1a73e8;
     color: #ffffff;
@@ -133,7 +133,6 @@ ul li {
     cursor: pointer;
     font-size: 1rem;
 }
-
 
 #animate-btn:hover {
     background-color: #0c47a1;  
