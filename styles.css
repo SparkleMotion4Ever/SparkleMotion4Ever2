@@ -118,6 +118,7 @@ ul li {
 
     .profile-pic {
         margin: 0 auto 20px auto;
+        float: left;
     }
 }
 #animate-btn {
