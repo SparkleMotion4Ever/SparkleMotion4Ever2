@@ -54,25 +54,25 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
-    <!-- jQuery Script to Animate -->
+   
     <script>
         $(document).ready(function() {
             $('#animate-btn').click(function() {
-                // Animate font size of the heading
-                $('h1').animate({ fontSize: '4rem' }, 1000)  // Grow the font size
-                    .animate({ fontSize: '2.5rem' }, 1000); // Shrink back to normal
+               
+                $('h1').animate({ fontSize: '4rem' }, 1000)
+                    .animate({ fontSize: '2.5rem' }, 1000); 
 
-                // Change the color of the heading text
+                
                 setTimeout(function() {
-                    $('h1').css('color', 'red');  // Change to red
+                    $('h1').css('color', 'red'); 
                 }, 1000);
 
                 setTimeout(function() {
-                    $('h1').css('color', 'white');  // Change back to white
+                    $('h1').css('color', 'white');  
                 }, 2000);
 
-                // Add border to the image
-                $('.profile-pic').css('border', '5px solid #f00');  // Red border
+                
+                $('.profile-pic').css('border', '5px solid #f00'); 
             });
         });
     </script>
