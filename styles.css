@@ -123,7 +123,7 @@ ul li {
 }
 #animate-btn {
     display: inline-block;
-    margin-top: 20px;  /* Adds space between the paragraph and the button */
+    margin-top: 20px;
     padding: 10px 20px;
     background-color: #1a73e8;
     color: #ffffff;
