@@ -124,7 +124,7 @@ ul li {
 #animate-btn {
     display: inline-block;  
     position: relative;     /* Allows you to move the button from its normal position */
-    top: 50px;              /* Move the button down 50px */
+    top: 100px;              /* Move the button down 50px */
     padding: 10px 20px;
     background-color: #1a73e8;
     color: #ffffff;
