@@ -118,6 +118,7 @@ ul li {
 
     .profile-pic {
         margin: 0 auto 20px auto;
+        clear: both;
     }
 }
 #animate-btn {
@@ -131,7 +132,7 @@ ul li {
     cursor: pointer;
     font-size: 1rem;
     float: left;
-    clear: left;
+    clear: both;
 }
 
 #animate-btn:hover {
