@@ -1,7 +1,7 @@
 #about-me {
-    display: flex;                  /* Changes layout to a row, placing items side by side */
-    align-items: flex-start;        /* Aligns items (image and paragraph) to the top */
-    justify-content: flex-start;    /* Ensures that items are aligned to the left */
+    display: flex;                  /* Use flexbox to place items side by side */
+    align-items: flex-start;        /* Align items to the top */
+    justify-content: flex-start;    /* Align content to the left */
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -11,24 +11,21 @@
 }
 
 .profile-pic {
-    margin-right: 20px;             /* Adds spacing between the image and the paragraph */
+    margin-right: 20px;             /* Space between the image and the text */
     border-radius: 50%;
     width: 150px;
     height: auto;
 }
 
-#about-me p {
-    font-size: 1.2rem;
-    color: #555;
-    margin: 0;
+.text-content {
+    display: flex;
+    flex-direction: column;         /* Stack the paragraph and button vertically */
 }
 
-.button-container {
-    margin-top: 20px;
-    text-align: left;               /* Ensures the button is left-aligned */
-    width: 100%;                    /* Ensures the button container takes up full width */
-    display: flex;
-    justify-content: flex-start;    /* Align the button to the left */
+.text-content p {
+    font-size: 1.2rem;
+    color: #555;
+    margin: 0 0 20px 0;            /* Add some space between the paragraph and the button */
 }
 
 #animate-btn {
@@ -40,7 +37,6 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 1rem;
-    text-align: center;
 }
 
 #animate-btn:hover {
@@ -49,15 +45,15 @@
 
 @media (max-width: 768px) {
     #about-me {
-        flex-direction: column;    /* Stack the image and text vertically on smaller screens */
+        flex-direction: column;    /* Stack the image and text on smaller screens */
         text-align: center;
     }
 
     .profile-pic {
-        margin: 0 auto 20px;       /* Center the image on smaller screens */
+        margin: 0 auto 20px;       /* Center the image */
     }
 
-    .button-container {
-        text-align: center;        /* Center-align button on smaller screens */
+    .text-content {
+        align-items: center;       /* Center the text content on smaller screens */
     }
 }
