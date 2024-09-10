@@ -24,7 +24,8 @@ header h1 {
 
 #about-me {
     display: flex;
-    align-items: flex-start;
+    flex-direction: column; /* Stacks elements vertically */
+    align-items: center; /* Centers elements horizontally */
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -34,12 +35,12 @@ header h1 {
 }
 
 .profile-pic {
-    float: left;  
-    margin-right: 15px; 
-    margin-bottom: 10px;
-    border-radius: 50%; 
+    margin-right: 0; /* Removes any margin that pushes content to the right */
+    margin-bottom: 20px; /* Adds spacing between image and text */
+    border-radius: 50%;
     width: 150px;
     height: auto;
+    display: block;
 }
 
 #about-me p {
@@ -123,7 +124,6 @@ ul li {
 }
 #animate-btn {
     display: inline-block;
-    margin-top: 20px;
     padding: 10px 20px;
     background-color: #1a73e8;
     color: #ffffff;
@@ -137,3 +137,8 @@ ul li {
     background-color: #0c47a1;
 }
 
+.button-container {
+    margin-top: 20px; /* Adds spacing between the paragraph and button */
+    text-align: center; /* Centers the button horizontally */
+    width: 100%;
+}
