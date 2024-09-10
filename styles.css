@@ -1,7 +1,7 @@
 #about-me {
-    display: flex;                  /* Use flexbox to place items side by side */
-    align-items: flex-start;        /* Align items to the top */
-    justify-content: flex-start;    /* Align content to the left */
+    display: flex;                 
+    align-items: flex-start;        
+    justify-content: flex-start;   
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -11,7 +11,7 @@
 }
 
 .profile-pic {
-    margin-right: 20px;             /* Space between the image and the text */
+    margin-right: 20px;             
     border-radius: 50%;
     width: 150px;
     height: auto;
@@ -19,13 +19,13 @@
 
 .text-content {
     display: flex;
-    flex-direction: column;         /* Stack the paragraph and button vertically */
+    flex-direction: column;         
 }
 
 .text-content p {
     font-size: 1.2rem;
     color: #555;
-    margin: 0 0 20px 0;            /* Add some space between the paragraph and the button */
+    margin: 0 0 20px 0;           
 }
 
 #animate-btn {
@@ -45,15 +45,15 @@
 
 @media (max-width: 768px) {
     #about-me {
-        flex-direction: column;    /* Stack the image and text on smaller screens */
+        flex-direction: column;    
         text-align: center;
     }
 
     .profile-pic {
-        margin: 0 auto 20px;       /* Center the image */
+        margin: 0 auto 20px;       
     }
 
     .text-content {
-        align-items: center;       /* Center the text content on smaller screens */
+        align-items: center;       
     }
 }
