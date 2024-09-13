@@ -151,3 +151,37 @@ ul li {
         justify-content: center;   /* Center the button on smaller screens */
     }
 }
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Class Reason Section */
+#class-reason {
+    background-color: #f8f8f8; /* Example background color */
+    border: 2px solid #009688; /* Green border */
+}
+
+/* Technologies Section */
+#technologies {
+    background-color: #ffccbc; /* Example background color */
+    border: 2px solid #f57c00; /* Orange border */
+}
+
+/* Resources Section */
+#resources {
+    background-color: #e1bee7; /* Example background color */
+    border: 2px solid #8e24aa; /* Purple border */
+}
+
+/* Style the h2 headings */
+#technologies h2, #resources h2, #class-reason h2 {
+    color: #d81b60; /* Dark pink for headings */
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
