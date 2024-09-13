@@ -1,80 +1,71 @@
-#about-me {
-    display: flex;                  /* Use flexbox for layout */
-    align-items: flex-start;        /* Align the boxes to the top */
-    justify-content: flex-start;    /* Align content to the left to prevent excessive spacing */
+/* General page styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #61dafb;  /* Light blue header */
     padding: 20px;
-    background-color: #ffffff;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    color: #002f5c;  /* Darker blue for header text */
+}
+
+/* Section layout styling */
+#about-me {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 20px;
+    background-color: #fff0f6;  /* Light pink background for the about section */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
-    max-width: 1000px;              /* Adjust width as needed */
+    max-width: 1000px;
     border-radius: 8px;
 }
 
 /* General box styling */
 .box {
-    background-color: #f8f8f8;      /* Light background for each box */
+    background-color: #f8f8f8;
     padding: 20px;
-    border: 2px solid #ccc;         /* Light border around each box */
-    border-radius: 8px;             /* Rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    border: 2px solid #f0a3c2;  /* Soft pink border for each box */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     margin: 10px;
 }
 
-/* Profile picture box */
+/* Profile picture box styling */
 .profile-pic-box {
-    width: 180px;                   /* Define a fixed width for the profile picture box */
-    display: flex;                  /* Align the image in the center */
+    width: 180px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 20px;             /* Add margin between profile pic and text */
+    margin-right: 20px;
+    background-color: #d1e7ff;  /* Light blue background for profile pic box */
+    border-radius: 50%;         /* Circle background */
 }
 
 .profile-pic {
     border-radius: 50%;
     width: 150px;
     height: auto;
+    border: 4px solid #f08080;  /* Light coral border around profile picture */
 }
 
-/* Text box */
+/* Text box styling */
 .text-box {
-    flex: 1;                        /* Allow text box to expand to take up more space */
-    text-align: left;               /* Align the text to the left */
-}
-
-/* Button box */
-.button-box {
-    display: flex;
-    justify-content: flex-start;    /* Align the button to the left */
-    align-items: center;
-    margin-top: 20px;
-}
-
-/* Button styling */
-#animate-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #1a73e8;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-}
-
-#animate-btn:hover {
-    background-color: #0c47a1;
-}
-
-@media (max-width: 768px) {
-    #about-me {
-        flex-direction: column;    /* Stack the boxes vertically on smaller screens */
-    }
-
-    .profile-pic-box {
-        margin: 0 auto 20px;       /* Center the profile pic box on smaller screens */
-    }
-
-    .button-box {
-        justify-content: center;   /* Center the button on smaller screens */
-    }
-}
+    flex: 1;
+    text-align: left;
+    background-color:
