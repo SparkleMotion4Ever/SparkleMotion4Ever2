@@ -1,12 +1,12 @@
 #about-me {
     display: flex;                  /* Use flexbox for layout */
     align-items: flex-start;        /* Align the boxes to the top */
-    justify-content: space-around;  /* Spread the boxes horizontally */
+    justify-content: flex-start;    /* Align content to the left to prevent excessive spacing */
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
-    max-width: 1000px;              /* Increase the max-width to accommodate the boxes */
+    max-width: 1000px;              /* Adjust width as needed */
     border-radius: 8px;
 }
 
@@ -26,6 +26,7 @@
     display: flex;                  /* Align the image in the center */
     justify-content: center;
     align-items: center;
+    margin-right: 20px;             /* Add margin between profile pic and text */
 }
 
 .profile-pic {
