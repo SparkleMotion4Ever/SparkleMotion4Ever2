@@ -1,16 +1,14 @@
-/* General page styling */
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #303030; /* Dark background to contrast brighter elements */
-    color: #ffffff;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
-/* Header styling */
 header {
-    background-color: #ad1457;  /* Darker pink */
+    background-color: #b71c1c;
     padding: 20px;
     text-align: center;
     color: white;
@@ -20,40 +18,37 @@ header {
 header h1 {
     font-size: 2.5rem;
     margin: 0;
-    color: #ffffff;  /* White text for the header */
+    color: #ffffff;
 }
 
-/* Section layout styling */
 #about-me {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     padding: 20px;
-    background-color: #0288d1;  /* Dark blue background for the about section */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: #ff4081;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     max-width: 1000px;
     border-radius: 10px;
 }
 
-/* General box styling */
 .box {
-    background-color: #004d40; /* Darker green background for boxes */
+    background-color: #0288d1;
     padding: 20px;
-    border: 2px solid #00796b;  /* Darker green border for each box */
+    border: 2px solid #00796b;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 10px;
 }
 
-/* Profile picture box styling */
 .profile-pic-box {
     width: 180px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    background-color: #ff5722;  /* Darker orange */
+    background-color: #1976d2;
     border-radius: 50%;
 }
 
@@ -61,20 +56,18 @@ header h1 {
     border-radius: 50%;
     width: 150px;
     height: auto;
-    border: 5px solid #ad1457;  /* Dark pink border around profile picture */
+    border: 5px solid #d32f2f;
 }
 
-/* Text box styling */
 .text-box {
     flex: 1;
     text-align: left;
-    background-color: #c51162;  /* Darker pink background for text box */
-    border: 2px solid #880e4f;  /* Deep pink border */
+    background-color: #388e3c;
+    border: 2px solid #2e7d32;
     padding: 20px;
-    color: #ffffff;
+    color: #333;
 }
 
-/* Button box styling */
 .button-box {
     display: flex;
     justify-content: flex-start;
@@ -82,11 +75,10 @@ header h1 {
     margin-top: 20px;
 }
 
-/* Button styling */
 #animate-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0288d1;  /* Dark blue button */
+    background-color: #ff5722;
     color: white;
     border: none;
     border-radius: 5px;
@@ -95,22 +87,20 @@ header h1 {
 }
 
 #animate-btn:hover {
-    background-color: #01579b;  /* Darker blue on hover */
+    background-color: #e64a19;
 }
 
-/* Styling for other sections */
 section {
     margin: 20px auto;
     padding: 20px;
-    background-color: #303030;
+    background-color: #fff;
     border-radius: 10px;
     max-width: 800px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Technologies and Resources Heading Styling */
-#technologies h2, #resources h2, #class-reason h2 {
-    color: #ff5722;  /* Darker orange for headings */
+#technologies h2, #resources h2 {
+    color: #b71c1c;
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
@@ -119,7 +109,7 @@ section {
 ul {
     list-style-type: disc;
     margin-left: 40px;
-    color: #ffab91; /* Light orange for list items */
+    color: #555;
 }
 
 ul li {
@@ -127,52 +117,46 @@ ul li {
     font-size: 1.1rem;
 }
 
-/* Links */
 .w3schools-link, .mdn-link {
-    color: #0097a7;  /* Darker teal links */
+    color: #0288d1;
     text-decoration: none;
 }
 
 .w3schools-link:hover, .mdn-link:hover {
-    color: #ff5722;  /* Darker orange hover effect for links */
+    color: #b71c1c;
 }
 
-/* Responsive styling */
 @media (max-width: 768px) {
     #about-me {
-        flex-direction: column;    /* Stack the boxes vertically on smaller screens */
+        flex-direction: column;
     }
 
     .profile-pic-box {
-        margin: 0 auto 20px;       /* Center the profile pic box on smaller screens */
+        margin: 0 auto 20px;
     }
 
     .button-box {
-        justify-content: center;   /* Center the button on smaller screens */
+        justify-content: center;
     }
 }
 
-/* Class Reason Section */
 #class-reason {
-    background-color: #00796b; /* Darker green background */
-    border: 2px solid #004d40; /* Deep green border */
+    background-color: #f8f8f8;
+    border: 2px solid #00796b;
 }
 
-/* Technologies Section */
 #technologies {
-    background-color: #ff7043; /* Darker orange background */
-    border: 2px solid #bf360c; /* Deep orange border */
+    background-color: #ffccbc;
+    border: 2px solid #e64a19;
 }
 
-/* Resources Section */
 #resources {
-    background-color: #7b1fa2; /* Dark purple background */
-    border: 2px solid #4a148c; /* Deep purple border */
+    background-color: #e1bee7;
+    border: 2px solid #8e24aa;
 }
 
-/* Style the h2 headings */
 #technologies h2, #resources h2, #class-reason h2 {
-    color: #ff5722; /* Dark orange for headings */
+    color: #b71c1c;
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
