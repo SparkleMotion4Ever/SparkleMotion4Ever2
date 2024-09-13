@@ -4,12 +4,12 @@ body {
     margin: 0;
     padding: 0;
     background-color: #212121;  /* Dark background */
-    color: #ffffff;  /* White text color to contrast the dark background */
-    min-height: 100vh; /* Ensure body covers the full viewport */
+    color: #ffffff;  /* White text color */
+    min-height: 100vh;
 }
 
 header {
-    background-color: #b71c1c;
+    background-color: #ff4081; /* Vibrant Pink header */
     padding: 20px;
     text-align: center;
     color: white;
@@ -27,7 +27,7 @@ header h1 {
     align-items: flex-start;
     justify-content: flex-start;
     padding: 20px;
-    background-color: #ff4081;
+    background-color: #42a5f5; /* Bright Blue background */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     max-width: 1000px;
@@ -35,9 +35,9 @@ header h1 {
 }
 
 .box {
-    background-color: #0288d1;
+    background-color: #66bb6a; /* Bright Green background for boxes */
     padding: 20px;
-    border: 2px solid #00796b;
+    border: 2px solid #388e3c;  /* Darker Green border */
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -49,7 +49,7 @@ header h1 {
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    background-color: #1976d2;
+    background-color: #ff7043;  /* Bright Orange background */
     border-radius: 50%;
 }
 
@@ -57,14 +57,14 @@ header h1 {
     border-radius: 50%;
     width: 150px;
     height: auto;
-    border: 5px solid #d32f2f;
+    border: 5px solid #ff5722;  /* Vibrant Orange border */
 }
 
 .text-box {
     flex: 1;
     text-align: left;
-    background-color: #388e3c;
-    border: 2px solid #2e7d32;
+    background-color: #ffb74d;  /* Soft Orange background */
+    border: 2px solid #f57c00;  /* Bright Orange border */
     padding: 20px;
     color: #ffffff;
 }
@@ -79,7 +79,7 @@ header h1 {
 #animate-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff5722;
+    background-color: #ff4081;  /* Vibrant Pink button */
     color: white;
     border: none;
     border-radius: 5px;
@@ -88,20 +88,20 @@ header h1 {
 }
 
 #animate-btn:hover {
-    background-color: #e64a19;
+    background-color: #e91e63;  /* Darker Pink on hover */
 }
 
 section {
     margin: 20px auto;
     padding: 20px;
-    background-color: #424242;  /* Dark background for sections */
+    background-color: #ffcc80;  /* Light Orange for sections */
     border-radius: 10px;
     max-width: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #technologies h2, #resources h2 {
-    color: #b71c1c;
+    color: #42a5f5;  /* Bright Blue for headings */
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
@@ -119,12 +119,12 @@ ul li {
 }
 
 .w3schools-link, .mdn-link {
-    color: #0288d1;
+    color: #66bb6a;  /* Green links */
     text-decoration: none;
 }
 
 .w3schools-link:hover, .mdn-link:hover {
-    color: #b71c1c;
+    color: #ff7043;  /* Orange hover effect for links */
 }
 
 @media (max-width: 768px) {
@@ -142,22 +142,22 @@ ul li {
 }
 
 #class-reason {
-    background-color: #424242;
-    border: 2px solid #00796b;
+    background-color: #66bb6a;  /* Green background */
+    border: 2px solid #388e3c;
 }
 
 #technologies {
-    background-color: #ffccbc;
-    border: 2px solid #e64a19;
+    background-color: #ffb74d;  /* Soft Orange background */
+    border: 2px solid #f57c00;
 }
 
 #resources {
-    background-color: #e1bee7;
-    border: 2px solid #8e24aa;
+    background-color: #42a5f5;  /* Bright Blue background */
+    border: 2px solid #1976d2;
 }
 
 #technologies h2, #resources h2, #class-reason h2 {
-    color: #b71c1c;
+    color: #ff4081;  /* Vibrant Pink for section headings */
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
