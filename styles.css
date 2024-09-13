@@ -5,6 +5,7 @@ body {
     padding: 0;
     background-color: #212121;  /* Dark background */
     color: #ffffff;  /* White text color to contrast the dark background */
+    min-height: 100vh; /* Ensure body covers the full viewport */
 }
 
 header {
