@@ -118,23 +118,5 @@ ul li {
 
     .profile-pic {
         margin: 0 auto 20px auto;
-        clear: left;
     }
 }
-#animate-btn {
-    display: inline-block;
-    margin-top: 20px;   /* This keeps some space between the text and the button */
-    padding: 10px 20px;
-    background-color: #1a73e8;
-    color: #ffffff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    text-align: center;
-}
-
-#animate-btn:hover {
-    background-color: #0c47a1;
-}
-
