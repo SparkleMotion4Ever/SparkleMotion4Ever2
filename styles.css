@@ -1,122 +1,79 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f4f8;
-    color: #333;
-}
-
-header {
-    background-image: url('3N1GMA.jpg'); 
-    background-size: cover;
-    background-position: center;
-    color: #ffffff;
-    padding: 20px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-header h1 {
-    text-align: center;
-    font-size: 2.5rem;
-    margin: 0;
-}
-
 #about-me {
-    display: flex;
-    align-items: flex-start;
+    display: flex;                  /* Use flexbox for layout */
+    align-items: flex-start;        /* Align the boxes to the top */
+    justify-content: space-around;  /* Spread the boxes horizontally */
     padding: 20px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 1000px;              /* Increase the max-width to accommodate the boxes */
     border-radius: 8px;
 }
 
+/* General box styling */
+.box {
+    background-color: #f8f8f8;      /* Light background for each box */
+    padding: 20px;
+    border: 2px solid #ccc;         /* Light border around each box */
+    border-radius: 8px;             /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+    margin: 10px;
+}
+
+/* Profile picture box */
+.profile-pic-box {
+    width: 180px;                   /* Define a fixed width for the profile picture box */
+    display: flex;                  /* Align the image in the center */
+    justify-content: center;
+    align-items: center;
+}
+
 .profile-pic {
-    float: left;  
-    margin-right: 15px; 
-    margin-bottom: 10px;
-    border-radius: 50%; 
+    border-radius: 50%;
     width: 150px;
     height: auto;
 }
 
-#about-me p {
-    flex: 1;
-    font-size: 1.2rem;
-    color: #555;
+/* Text box */
+.text-box {
+    flex: 1;                        /* Allow text box to expand to take up more space */
+    text-align: left;               /* Align the text to the left */
 }
 
-#class-reason p {
-    clear: both; 
+/* Button box */
+.button-box {
+    display: flex;
+    justify-content: flex-start;    /* Align the button to the left */
+    align-items: center;
+    margin-top: 20px;
 }
 
-#class-reason {
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px auto;
-    max-width: 800px;
-    border-radius: 8px;
-    color: #444;
-    font-size: 1.1rem;
-}
-
-section {
-    margin: 20px auto;
-    padding: 20px;
-    max-width: 800px;
-    background-color: #ffffff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-#technologies h2, #resources h2 {
-    background-image: url('3N1GMA.1.jpg'); 
-    background-size: cover;
-    background-position: center;
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 2rem; 
-}
-
-ul {
-    list-style-type: disc;
-    margin-left: 40px;
-    color: #555;
-}
-
-ul li {
-    margin-bottom: 10px;
-    font-size: 1.1rem;
-}
-
-.w3schools-link, .mdn-link {
+/* Button styling */
+#animate-btn {
     display: inline-block;
-    background-image: url('3N1GMA.2.jpg'); 
-    background-size: cover; 
-    background-position: center; 
-    color: transparent; 
-    -webkit-background-clip: text; 
-    background-clip: text; 
-    text-decoration: none; 
-    font-size: 2rem; 
-    font-weight: bold; 
-    line-height: 1.2; 
-    margin-bottom: 20px; 
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+#animate-btn:hover {
+    background-color: #0c47a1;
 }
 
 @media (max-width: 768px) {
     #about-me {
-        flex-direction: column;
-        text-align: center;
+        flex-direction: column;    /* Stack the boxes vertically on smaller screens */
     }
 
-    .profile-pic {
-        margin: 0 auto 20px auto;
+    .profile-pic-box {
+        margin: 0 auto 20px;       /* Center the profile pic box on smaller screens */
+    }
+
+    .button-box {
+        justify-content: center;   /* Center the button on smaller screens */
     }
 }
