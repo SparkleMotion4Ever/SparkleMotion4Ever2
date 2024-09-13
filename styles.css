@@ -3,13 +3,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #212121;  /* Dark background */
-    color: #ffffff;  /* White text color */
+    background-color: #212121;  
+    color: #ffffff;  
     min-height: 100vh;
 }
 
 header {
-    background-color: #ff4081; /* Vibrant Pink header */
+    background-color: #ff4081; 
     padding: 20px;
     text-align: center;
     color: white;
@@ -27,7 +27,7 @@ header h1 {
     align-items: flex-start;
     justify-content: flex-start;
     padding: 20px;
-    background-color: #ff4081;  /* Pink box for the About Me section */
+    background-color: #ff4081; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 20px auto;
     max-width: 1000px;
@@ -35,9 +35,9 @@ header h1 {
 }
 
 .box {
-    background-color: #0288d1;  /* Blue for internal boxes */
+    background-color: #0288d1;  
     padding: 20px;
-    border: 2px solid #00796b;  /* Darker Blue border */
+    border: 2px solid #00796b;  
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -49,7 +49,7 @@ header h1 {
     justify-content: center;
     align-items: center;
     margin-right: 20px;
-    background-color: #1976d2;  /* Blue for profile pic box */
+    background-color: #1976d2;  
     border-radius: 50%;
 }
 
@@ -57,14 +57,14 @@ header h1 {
     border-radius: 50%;
     width: 150px;
     height: auto;
-    border: 5px solid #d32f2f;  /* Red border around profile picture */
+    border: 5px solid #d32f2f;  
 }
 
 .text-box {
     flex: 1;
     text-align: left;
-    background-color: #388e3c;  /* Green for text box */
-    border: 2px solid #2e7d32;  /* Dark Green border */
+    background-color: #388e3c;  
+    border: 2px solid #2e7d32;  
     padding: 20px;
     color: #ffffff;
 }
@@ -79,7 +79,7 @@ header h1 {
 #animate-btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff5722;  /* Orange button */
+    background-color: #ff5722;  
     color: white;
     border: none;
     border-radius: 5px;
@@ -88,7 +88,7 @@ header h1 {
 }
 
 #animate-btn:hover {
-    background-color: #e64a19;  /* Darker Orange on hover */
+    background-color: #e64a19;  
 }
 
 section {
@@ -99,26 +99,26 @@ section {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Class Reason - Green */
+
 #class-reason {
-    background-color: #4caf50;  /* Green */
+    background-color: #4caf50; 
     border: 2px solid #388e3c;
 }
 
-/* Technologies - Orange */
+
 #technologies {
-    background-color: #ff9800;  /* Orange */
+    background-color: #ff9800;  
     border: 2px solid #e65100;
 }
 
-/* Resources - Blue */
+
 #resources {
-    background-color: #42a5f5;  /* Blue */
+    background-color: #42a5f5; 
     border: 2px solid #1976d2;
 }
 
 #technologies h2, #resources h2, #class-reason h2 {
-    color: #ff4081;  /* Pink for section headings */
+    color: #ff4081; 
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
@@ -127,7 +127,7 @@ section {
 ul {
     list-style-type: disc;
     margin-left: 40px;
-    color: #ffffff;  /* White text for the list */
+    color: #ffffff;
 }
 
 ul li {
@@ -136,12 +136,12 @@ ul li {
 }
 
 .w3schools-link, .mdn-link {
-    color: #0288d1;  /* Blue links */
+    color: #0288d1;  
     text-decoration: none;
 }
 
 .w3schools-link:hover, .mdn-link:hover {
-    color: #ff4081;  /* Pink hover effect for links */
+    color: #ff4081;  
 }
 
 @media (max-width: 768px) {
