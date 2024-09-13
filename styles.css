@@ -37,7 +37,7 @@ header h1 {
 .box {
     background-color: #0288d1;  /* Blue for internal boxes */
     padding: 20px;
-    border: 2px solid #0277bd;  /* Darker Blue border */
+    border: 2px solid #00796b;  /* Darker Blue border */
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     margin: 10px;
@@ -63,8 +63,8 @@ header h1 {
 .text-box {
     flex: 1;
     text-align: left;
-    background-color: #4caf50;  /* Green text box background */
-    border: 2px solid #388e3c;  /* Dark Green border */
+    background-color: #388e3c;  /* Green for text box */
+    border: 2px solid #2e7d32;  /* Dark Green border */
     padding: 20px;
     color: #ffffff;
 }
@@ -94,24 +94,26 @@ header h1 {
 section {
     margin: 20px auto;
     padding: 20px;
-    background-color: #ffcc80;  /* Light Orange for sections */
     border-radius: 10px;
     max-width: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* Class Reason - Green */
 #class-reason {
-    background-color: #4caf50;  /* Green background for Class Reason */
+    background-color: #4caf50;  /* Green */
     border: 2px solid #388e3c;
 }
 
+/* Technologies - Orange */
 #technologies {
-    background-color: #ffb74d;  /* Orange background for Technologies */
-    border: 2px solid #f57c00;
+    background-color: #ff9800;  /* Orange */
+    border: 2px solid #e65100;
 }
 
+/* Resources - Blue */
 #resources {
-    background-color: #42a5f5;  /* Blue background for Resources */
+    background-color: #42a5f5;  /* Blue */
     border: 2px solid #1976d2;
 }
 
